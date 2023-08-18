@@ -37,7 +37,7 @@ function borrar(){
 }
 
 function resultado(){
- 
-        
-   
+    solucion=numespera+operapendiente+numpantalla;
+    document.Calculadora.txtboxnros.value=eval(solucion);
+    numpantalla=eval(solucion);
 }
